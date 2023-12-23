@@ -1,0 +1,43 @@
+POST http://localhost:3001/api/rna HTTP/1.1
+Content-Type: application/json
+
+{
+    "rna": "55.41",
+    "cellId": "NG0001-03",
+    "siteId": "NG0001",
+    "date": "2017-06-03 12:00:00"
+}
+
+#####
+
+GET http://localhost:3001/api/rna HTTP/1.1
+
+####
+
+
+GET http://localhost:3001/api/rna/average-rna/NG0001 HTTP/1.1
+Content-Type: application/json
+
+{
+    "startDate": "2017-06-01 12:00:00",
+    "endDate": "2017-06-03 12:00:00"
+}
+
+####    
+GET http://localhost:3001/api/rna/average-rna HTTP/1.1
+Content-Type: application/json
+
+{
+    "startDate": "2017-06-02 12:00:00",
+    "endDate": "2017-06-03 12:00:00"
+}
+
+####    
+GET http://localhost:3001/api/excel HTTP/1.1
+Content-Type: application/json
+
+{
+    "path": "C:/Users/RAZER BLADE/Documents/Airtel Work/RNA Analysis/Why 3G RNA below 2G RNA/test_rna.xlsx"
+}
+
+

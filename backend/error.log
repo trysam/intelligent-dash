@@ -1,0 +1,7 @@
+2023-12-20T07:32:19.243Z - Cannot read properties of undefined (reading 'path')
+2023-12-20T07:34:26.243Z - Cannot read properties of undefined (reading 'path')
+2023-12-20T07:37:34.672Z - Cannot read properties of undefined (reading 'path')
+2023-12-20T08:38:44.584Z - The "path" argument must be of type string or an instance of Buffer or URL. Received undefined
+2023-12-20T08:40:47.592Z - Cannot read properties of undefined (reading 'filename')
+2023-12-20T08:47:52.591Z - The "path" argument must be of type string or an instance of Buffer or URL. Received undefined
+2023-12-20T08:48:24.183Z - The "path" argument must be of type string or an instance of Buffer or URL. Received undefined
