@@ -1,0 +1,28 @@
+.dynamicPhrase {    
+    background: -webkit-linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,199,1) 50%, rgba(252,176,69,1) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    animation: 'gradient-animation 2s ease-in-out infinite',
+}
+
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+  }
+  
+@keyframes deleting {
+    from { width: 100%; }
+    to { width: 0; }
+  }
+
+.cursor {
+    animation: blink 1s ease-in-out infinite;
+  }
+  
+@keyframes blink {
+    50% {
+      opacity: 0;
+    }
+  
+}
