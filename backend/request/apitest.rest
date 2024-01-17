@@ -2,8 +2,8 @@ POST http://localhost:3001/api/rna HTTP/1.1
 Content-Type: application/json
 
 {
-    "rna": "55.41",
-    "cellId": "NG0001-03",
+    "rna": "54.41",
+    "cellId": "NG0002-03",
     "siteId": "NG0001",
     "date": "2017-06-03 12:00:00"
 }
